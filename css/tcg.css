@@ -1,12 +1,9 @@
 main {
-	background: white;
+	background: #888888;
 }
 
 .principal {
 	padding: 2em 0;
-	background: #FEFEFE
-	width: 940px;
-	margin: 0 auto;	
 }
 
 .titulo-principal {
@@ -36,8 +33,8 @@ main {
 	margin-bottom: 30px;
 }
 
-.meio {
-	background: linear-gradient(#FEFEFE, #888888);
+.meio{
+	margin-bottom: 30px;
 }
 
 .final {

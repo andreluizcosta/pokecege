@@ -1,5 +1,5 @@
-//Mostra as informações na Badge Solo
 
+//Mostra as informações na Badge Solo
 const getPokeInfo = async(pokeId) => {
 
 	const pokemon = pokemonList.find(poke => poke.id === pokeId); 

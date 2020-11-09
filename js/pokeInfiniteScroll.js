@@ -8,7 +8,7 @@ window.addEventListener("scroll", () => {
      if ((scrollTop + clientHeight + 400) >= scrollHeight) {  
             
          if(viewPokemon + stepLazyLoad < maxPokemon){
-             viewPokemon+=stepLazyLoad;
+             viewPokemon+=stepLazyLoad; //Em cada implementação uma quantidade de pokémons é adicionada
          }
          else{
              viewPokemon = maxPokemon;

@@ -4,24 +4,21 @@ const botaoBuscar = document.querySelector("#botao-busca");
 botaoBuscar.addEventListener("click", function(event){ 
 
 	event.preventDefault();
-	console.log("Busca Iniciada..");
 
 	var form = document.querySelector("#form-busca");
 
-	var nome = form.nome.value;	
+	var filter = form.nome.value;	
 
-	if(nome){
-		window.open("index.html?name="+nome,'_self');
+	if(filter){
+		window.open("index.html?filter="+filter,'_self');
 	}
 	else {		
 		window.open("index.html",'_self');
 	}
-
-
 });
 
 //Recebe valor da Busca
-var filtroNome = getURLParameter('name');
+var filtroNome = getURLParameter('filter');
 
 if(filtroNome){
 	var form = document.querySelector("#form-busca");

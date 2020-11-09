@@ -1,5 +1,5 @@
 main{
-	background: white;
+	background: #888888;
 }
 
 .principal-sobre {
@@ -34,10 +34,6 @@ main{
 
 .inicio-sobre{
 	margin-bottom: 30px;
-}
-
-.meio-sobre {
-	background: linear-gradient(#FEFEFE, #888888);
 }
 
 .imagem-sobre {
@@ -94,6 +90,6 @@ main{
 	font-family: 'Roboto Slab', serif;
 	text-align: center;
 	margin-top: 15px;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 	line-height: 25px;
 }

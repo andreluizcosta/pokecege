@@ -16,4 +16,8 @@
     .card-title{
         font-size: 13px;
     }
+
+    .video {
+        width: auto;
+    }
 }

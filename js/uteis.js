@@ -12,6 +12,7 @@ const getURLParameter = sParam => {
 	}
 }
 
+//Ajusta os valores e casas decimais 
 const calculaStatus = (num) =>{
 	return (num/10).toFixed(1);
 }
