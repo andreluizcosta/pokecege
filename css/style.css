@@ -1,8 +1,10 @@
 * {
+	outline: 0;
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
 	list-style: none;
+	box-sizing: border-box;
 }
 
 body {
@@ -20,28 +22,18 @@ nav {
 	width: 100%;
 	background: #8B0000;
 	border-bottom: 15px solid #000000;
-	position: fixed; /*Nav fixada*/
-	top: 0;
 	box-shadow: 0px 2px 2px black;
+	position: fixed; /*Nav fixada*/
+	z-index:2;
 }
 
 main {
-	padding-top: 150px;
+	padding-top: 110px;
 }
 
 .logo {
-	width: 200px;
-	padding: 0 50px;
-}
-
-.logo2{
-	width: 200px;
-	padding: 0 50px;
-	cursor: pointer;
-}
-
-.logo3 {
-	width: 150px;
+	width: 250px;
+	padding: 0 45px;
 }
 
 nav ul {
@@ -51,7 +43,7 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	margin: 0 8px;
+	margin: 0 10px;
 	line-height: 80px;
 	padding: 0px 10px;
 	vertical-align: middle; /* alinhar meio */
@@ -139,8 +131,24 @@ nav a:hover {
 	background: #2FA21F;
 }
 
+#carregando h2 {
+    text-align: center;
+	font-size: 2em;
+	margin: 10px;
+    text-shadow: -1px 0px 2px #363636;
+}
+
+#nenhumEncontrado h2 {
+    text-align: center;
+	font-size: 2em;
+	margin: 10px;
+    text-shadow: 2px 1px #252323;
+    margin-bottom: 30px;
+}
+
+
 footer {
-	height: 200px;
+	height: 230px;
 	width: 100%;
 	background: #8B0000;
 	border-top: 15px solid #000000;
@@ -152,17 +160,23 @@ form {
 	padding: 10px;
 }
 
-.rodape {
-	display: flex;
-	justify-content: space-between;
-}
-
 .rodape-list {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .logo-rodape {
 	border-right: 3px solid #000000;
 }
 
+
+.logo2{
+	width: 290px;
+	padding: 0 50px;
+	cursor: pointer;
+}
+
+.logo3 {
+	width: 150px;
+}

@@ -1,12 +1,3 @@
-.margin-card {
-    margin-top: 0px;
-    margin-bottom: 15px;
-}
-
-.voltar {
-   width: 120px;;
-}
-
 #badge{
     width: 100%;
     display: flex;
@@ -23,7 +14,7 @@
 	padding: 9px 15px;
 	
 	border-radius: 50px;
-    width: 100px;
+    width: 130px;
     margin-right: 5px;
     border: 3px solid white;
     box-shadow: -2px 2px 3px 2px #000000;

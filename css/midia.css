@@ -1,0 +1,19 @@
+
+@media screen and (max-width: 1314px) {
+    #pokedex {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    body {
+		width: 1310px;
+	}
+
+    .busca{
+        font-size: 12px;
+        
+    }
+
+    .card-title{
+        font-size: 13px;
+    }
+}
